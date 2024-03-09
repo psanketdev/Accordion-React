@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
-import questions from '../react-question/question';
+import questions from '../../react-question/question';
 import AccordionDropdown from './AccordionDropdown';
+import './accordion.css'
 
 export default function Accordion() {
 

@@ -1,0 +1,31 @@
+.acc-section ul {
+	width: 500px;
+}
+
+.acc-section ul li {
+	margin-bottom: 7px;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	transition: 0.5s ease-in-out;
+}
+
+.acc-que {
+	padding: 20px;
+	display: flex;
+  justify-content: space-between;
+  align-items: center;
+	background-color: #70a1ff;
+}
+
+.acc-que h3 {
+	color: #fff;
+}
+
+ul li p {
+	font-size: 14px;
+	padding: 10px;
+	line-height: 1.5;
+	background-color: #70a1ff29;
+	font-weight: 300;
+}

@@ -28,6 +28,9 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 ol, ul {
 	list-style: none;
@@ -45,7 +48,37 @@ table {
 	border-spacing: 0;
 }
 
-.acc-section .container {
+#root {
+	display: flex;
+}
+
+aside {
+	width: 18%;
+	background-color: #70a1ff;
+	height: 100vh;
+}
+
+.nav ul li {
+	padding: 10px 30px;
+	border-bottom: 1px solid #fff;
+}
+
+.nav ul li a {
+	color: #000;
+	text-decoration: none;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+}
+
+.nav ul li a.active {
+	color: #fff;
+}
+
+main {
+	width: calc(100% - 18%);
+}
+
+section .container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -60,35 +93,4 @@ h2 {
 		margin: 30px 0;
 }
 
-ul {
-	width: 500px;
-}
-
-ul li {
-	margin-bottom: 7px;
-	font-family: "Poppins", sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	transition: 0.5s ease-in-out;
-}
-
-.acc-que {
-	padding: 20px;
-	display: flex;
-  justify-content: space-between;
-  align-items: center;
-	background-color: #70a1ff;
-}
-
-.acc-que h3 {
-	color: #fff;
-}
-
-ul li p {
-	font-size: 14px;
-	padding: 10px;
-	line-height: 1.5;
-	background-color: #70a1ff29;
-	font-weight: 300;
-}
 
