@@ -44,3 +44,18 @@ input:focus-visible {
 .todo-list li h3 {
   width: calc(100% - 15px);
 }
+
+.todo-list li div {
+  display: flex;
+  align-items: center;
+}
+
+.todo-list li div a:first-of-type {
+  margin-right: 10px;
+  margin-bottom: -5px;
+  color: #6c5ce7;
+}
+
+.todo-list li div a:last-of-type {
+  color: #d63031;
+}
