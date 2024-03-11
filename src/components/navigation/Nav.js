@@ -13,6 +13,9 @@ export default function Nav() {
         <li>
           <NavLink exact activeClassName="active" to="todolist">Todo List</NavLink>
         </li>
+        <li>
+          <NavLink exact activeClassName="active" to="filter">Gallery Filter</NavLink>
+        </li>
       </ul>
     </nav>
   );
