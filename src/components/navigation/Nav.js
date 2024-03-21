@@ -16,6 +16,9 @@ export default function Nav() {
         <li>
           <NavLink exact activeClassName="active" to="filter">Gallery Filter</NavLink>
         </li>
+        <li>
+          <NavLink exact activeClassName="active" to="dark-light-theme">Dark-Light Theme</NavLink>
+        </li>
       </ul>
     </nav>
   );
