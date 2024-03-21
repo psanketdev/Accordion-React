@@ -5,7 +5,11 @@ import './accordion.css'
 
 export default function Accordion() {
 
-  const [ques, setQues] = useState(questions);
+  const [showAns, setShowAns] = useState(0);
+
+  const handleClick = (id) => {
+    setShowAns((preValue) => preValue === id ? null : id);
+  }
 
   return (
     <section className='acc-section'>
@@ -13,9 +17,9 @@ export default function Accordion() {
         <h2>React Accordion</h2>
         <ul className='acc-main'>
           {
-            ques.map(question => {
+            questions.map((question, index) => {
               const id = question.id;
-              return <AccordionDropdown key={id} {...question} />
+              return <AccordionDropdown key={id} {...question} showAns={index === showAns} onClick={() => handleClick(index)} />
             })
           }
         </ul>

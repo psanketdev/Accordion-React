@@ -16,6 +16,7 @@
   justify-content: space-between;
   align-items: center;
 	background-color: #70a1ff;
+	cursor: pointer;
 }
 
 .acc-que h3 {

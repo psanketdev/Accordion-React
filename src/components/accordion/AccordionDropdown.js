@@ -1,11 +1,7 @@
-import React, { useState } from "react";
-
-export default function AccordionDropdown({ que, ans }) {
-  const [showAns, setShowAns] = useState(false);
-  
+export default function AccordionDropdown({ que, ans, showAns, onClick}) {
   return (
-    <li  className={`${(showAns?'active':'')}`}>
-      <div className="acc-que" onClick={() => {setShowAns(!showAns)}}>
+    <li>
+      <div className="acc-que" onClick={onClick}>
         <h3>{que}</h3>  
         <span>{showAns?'➖':'➕'}</span>
       </div>
