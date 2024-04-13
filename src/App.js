@@ -6,6 +6,7 @@ import Nav from "./components/navigation/Nav";
 import Todo from "./components/todo/Todo";
 import Gallery from "./components/filter/Gallery";
 import DarkLightTheme from './components/darLightTheme/DarkLightTheme';
+import CountryCitySelection from "./components/fetchCountry/CountryCitySelection";
 
 
 
@@ -21,6 +22,7 @@ function App() {
           <Route exact path="todolist" element={<Todo />}></Route>
           <Route exact path="filter" element={<Gallery />}></Route>
           <Route exact path="dark-light-theme" element={<DarkLightTheme />}></Route>
+          <Route exact path="country-city" element={<CountryCitySelection />}></Route>
         </Routes>
       </main>
     </>

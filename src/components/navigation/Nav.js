@@ -19,6 +19,9 @@ export default function Nav() {
         <li>
           <NavLink exact activeClassName="active" to="dark-light-theme">Dark-Light Theme</NavLink>
         </li>
+        <li>
+          <NavLink exact activeClassName="active" to="country-city">Fetch Country City</NavLink>
+        </li>
       </ul>
     </nav>
   );
