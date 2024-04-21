@@ -22,6 +22,12 @@ export default function Nav() {
         <li>
           <NavLink exact activeClassName="active" to="country-city">Fetch Country City</NavLink>
         </li>
+        <li>
+          <NavLink exact activeClassName="active" to="counter-hooks">Counter Using Hook</NavLink>
+        </li>
+        <li>
+          <NavLink exact activeClassName="active" to="progress-bar">Progress Bar</NavLink>
+        </li>
       </ul>
     </nav>
   );
