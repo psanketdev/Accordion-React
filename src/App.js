@@ -9,6 +9,7 @@ import DarkLightTheme from './components/darLightTheme/DarkLightTheme';
 import CountryCitySelection from "./components/fetchCountry/CountryCitySelection";
 import Counter from "./components/counter/Counter";
 import ProgressBar from "./components/progressbar/ProgressBar";
+import PassShowHide from "./components/password-show-hide/PassShowHide";
 
 
 
@@ -27,6 +28,7 @@ function App() {
           <Route exact path="country-city" element={<CountryCitySelection />}></Route>
           <Route exact path="counter-hooks" element={<Counter />}></Route>
           <Route exact path="progress-bar" element={<ProgressBar />}></Route>
+          <Route exact path="password-show-hide" element={<PassShowHide />}></Route>
         </Routes>
       </main>
     </>

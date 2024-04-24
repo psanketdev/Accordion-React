@@ -28,6 +28,9 @@ export default function Nav() {
         <li>
           <NavLink exact activeClassName="active" to="progress-bar">Progress Bar</NavLink>
         </li>
+        <li>
+          <NavLink exact activeClassName="active" to="password-show-hide">Password Show Hide</NavLink>
+        </li>
       </ul>
     </nav>
   );

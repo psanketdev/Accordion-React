@@ -1,0 +1,22 @@
+.password {
+  position: relative;
+}
+
+input.form-control {
+  width: 300px;
+  min-height: 25px;
+  padding: 5px 30px 5px 16px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.password a {
+  text-decoration: none;
+  font-size: 25px;
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
