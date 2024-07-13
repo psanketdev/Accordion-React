@@ -6,7 +6,7 @@ const Bar = ({ value = 0, onComplete }) => {
   useEffect(() => {
     setPercentage(Math.min(100, Math.max(value, 0)));
 
-    if(percentage >= 100) {
+    if (percentage >= 100) {
       onComplete();
     }
   }, [value]);

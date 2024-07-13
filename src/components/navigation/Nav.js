@@ -31,6 +31,9 @@ export default function Nav() {
         <li>
           <NavLink exact activeClassName="active" to="password-show-hide">Password Show Hide</NavLink>
         </li>
+        <li>
+          <NavLink exact activeClassName="active" to="load-more">Load More</NavLink>
+        </li>
       </ul>
     </nav>
   );
